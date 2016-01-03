@@ -1,0 +1,14 @@
+; disable motors
+M84
+
+;disable all heaters
+{% snippet 'disable_hotends' %}
+{% snippet 'disable_bed' %}
+;disable fan
+M106 S0
+
+;pull head out of the way
+G91
+G0 Z15 F100
+G91
+G0 X-10 F100
