@@ -62,9 +62,9 @@ retraction_minimal_extrusion: 0.1
 retraction_speed: 42.0
 skirt_gap: 3.0
 skirt_line_count: true
-skirt_minimal_length: 150.0
+skirt_minimal_length: 200.0
 solid_bottom: true
-solid_layer_thickness: 1.0
+solid_layer_thickness: 1.4
 solid_top: true
 spiralize: false
 start_gcode:
@@ -82,6 +82,6 @@ support_type: lines
 support_xy_distance: 0.7
 support_z_distance: 0.15
 travel_speed: 51
-wall_thickness: 1.0
+wall_thickness: 0.70
 wipe_tower: false
 wipe_tower_volume: 15
