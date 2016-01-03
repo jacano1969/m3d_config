@@ -1,7 +1,7 @@
 _description: ''
 _display_name: M3D PLA 0.2mm
 bottom_layer_speed: 20
-bottom_thickness: 0.2
+bottom_thickness: 0.25
 brim_line_count: 20
 cool_head_lift: false
 cool_min_feedrate: 28
@@ -23,7 +23,7 @@ filament_diameter:
 filament_flow: 120.0
 fill_density: 12
 fill_overlap: 15
-first_layer_width_factor: 75
+first_layer_width_factor: 100
 fix_horrible_extensive_stitching: false
 fix_horrible_union_all_type_a: true
 fix_horrible_union_all_type_b: false
@@ -62,7 +62,7 @@ retraction_minimal_extrusion: 0.1
 retraction_speed: 42.0
 skirt_gap: 3.0
 skirt_line_count: true
-skirt_minimal_length: 200.0
+skirt_minimal_length: 250.0
 solid_bottom: true
 solid_layer_thickness: 1.4
 solid_top: true
