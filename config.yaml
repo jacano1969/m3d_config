@@ -11,7 +11,7 @@ plugins:
   discovery:
     upnpUuid: 9123a423-7f00-4178-93c3-38abe48f87b6
   m3dfio:
-    BackLeftOffset: '0.126589'
+    BackLeftOffset: 0.126589
     BackLeftOrientation: -0.051444
     BackRightOffset: 0.200322
     BackRightOrientation: -0.029203
@@ -43,7 +43,7 @@ server:
   secretKey: fjiyNRYfEAWGJXH9ZiCOYwQjxyr8CYYw
 slicing:
   defaultProfiles:
-    cura: test
+    cura: m3d_pla_0.2mm
 system: {}
 temperature: {}
 webcam: {}
