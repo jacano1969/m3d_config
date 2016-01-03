@@ -1,7 +1,7 @@
 axes:
   e:
     inverted: false
-    speed: 345
+    speed: 345.14568
   x:
     inverted: false
     speed: 1946
