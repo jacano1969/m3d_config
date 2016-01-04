@@ -20,7 +20,7 @@ filament_diameter:
 - 0.0
 - 0.0
 - 0.0
-filament_flow: 200.0
+filament_flow: 150.0
 fill_density: 12
 fill_overlap: 15
 first_layer_width_factor: 100
@@ -55,7 +55,7 @@ raft_surface_layers: 2
 retraction_amount: 2.0
 retraction_combing: All
 retraction_dual_amount: 14.5
-retraction_enable: false
+retraction_enable: true
 retraction_hop: 0.2
 retraction_min_travel: 1.5
 retraction_minimal_extrusion: 0.1
