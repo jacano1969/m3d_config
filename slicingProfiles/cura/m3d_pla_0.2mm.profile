@@ -20,7 +20,7 @@ filament_diameter:
 - 0.0
 - 0.0
 - 0.0
-filament_flow: 120.0
+filament_flow: 200.0
 fill_density: 12
 fill_overlap: 15
 first_layer_width_factor: 100
