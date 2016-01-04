@@ -1,7 +1,7 @@
 _description: ''
 _display_name: M3D PLA 0.2mm
 bottom_layer_speed: 20
-bottom_thickness: 0.25
+bottom_thickness: 0.2
 brim_line_count: 20
 cool_head_lift: false
 cool_min_feedrate: 28
