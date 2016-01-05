@@ -20,7 +20,7 @@ filament_diameter:
 - false
 - false
 - false
-filament_flow: 110.0
+filament_flow: 120.0
 fill_density: 12
 fill_overlap: 15
 first_layer_width_factor: 100
@@ -52,7 +52,7 @@ raft_interface_thickness: 0.4
 raft_line_spacing: 4.0
 raft_margin: 2.0
 raft_surface_layers: 2
-retraction_amount: 4.0
+retraction_amount: 4.5
 retraction_combing: All
 retraction_dual_amount: 14.5
 retraction_enable: true
