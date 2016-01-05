@@ -21,7 +21,7 @@ filament_diameter:
 - false
 - false
 filament_flow: 120.0
-fill_density: 12
+fill_density: 15
 fill_overlap: 15
 first_layer_width_factor: 100
 fix_horrible_extensive_stitching: false
