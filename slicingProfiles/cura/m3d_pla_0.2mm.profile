@@ -1,7 +1,7 @@
 _description: Imported by M3D Fio on 2016-01-02 15:56
 _display_name: M3D PLA 0.2mm V4
 bottom_layer_speed: 28
-bottom_thickness: 0.4
+bottom_thickness: 0.3
 brim_line_count: 20
 cool_head_lift: false
 cool_min_feedrate: 28
