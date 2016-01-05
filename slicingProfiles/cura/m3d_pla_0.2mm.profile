@@ -1,7 +1,7 @@
-_description: ''
-_display_name: M3D PLA 0.2mm
-bottom_layer_speed: 20
-bottom_thickness: 0.30
+_description: Imported by M3D Fio on 2016-01-02 15:56
+_display_name: M3D PLA 0.2mm V4
+bottom_layer_speed: 28
+bottom_thickness: 0.4
 brim_line_count: 20
 cool_head_lift: false
 cool_min_feedrate: 28
@@ -17,11 +17,11 @@ fan_speed: 255
 fan_speed_max: 255
 filament_diameter:
 - 1.75
-- 0.0
-- 0.0
-- 0.0
-filament_flow: 120.0
-fill_density: 12
+- false
+- false
+- false
+filament_flow: 100.0
+fill_density: 15
 fill_overlap: 15
 first_layer_width_factor: 100
 fix_horrible_extensive_stitching: false
@@ -40,10 +40,10 @@ platform_adhesion: none
 print_bed_temperature: 70
 print_speed: 34.0
 print_temperature:
-- 215.0
-- 0.0
-- 0.0
-- 0.0
+- 215
+- false
+- false
+- false
 raft_airgap: 0.28
 raft_base_linewidth: 2.5
 raft_base_thickness: 0.4
@@ -52,19 +52,19 @@ raft_interface_thickness: 0.4
 raft_line_spacing: 4.0
 raft_margin: 2.0
 raft_surface_layers: 2
-retraction_amount: 3.0
+retraction_amount: 4.0
 retraction_combing: All
 retraction_dual_amount: 14.5
 retraction_enable: true
 retraction_hop: 0.2
 retraction_min_travel: 1.5
 retraction_minimal_extrusion: 0.1
-retraction_speed: 62.0
+retraction_speed: 42.0
 skirt_gap: 3.0
 skirt_line_count: true
-skirt_minimal_length: 250.0
+skirt_minimal_length: 150.0
 solid_bottom: true
-solid_layer_thickness: 1.4
+solid_layer_thickness: 1.0
 solid_top: true
 spiralize: false
 start_gcode:
@@ -82,6 +82,6 @@ support_type: lines
 support_xy_distance: 0.7
 support_z_distance: 0.15
 travel_speed: 51
-wall_thickness: 0.70
+wall_thickness: 0.7
 wipe_tower: false
 wipe_tower_volume: 15
