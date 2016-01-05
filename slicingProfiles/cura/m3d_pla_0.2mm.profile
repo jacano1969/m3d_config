@@ -52,7 +52,7 @@ raft_interface_thickness: 0.4
 raft_line_spacing: 4.0
 raft_margin: 2.0
 raft_surface_layers: 2
-retraction_amount: 4.5
+retraction_amount: 5.0
 retraction_combing: Off
 retraction_dual_amount: 14.5
 retraction_enable: true

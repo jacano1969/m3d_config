@@ -19,7 +19,7 @@ plugins:
     BacklashX: 0.75
     BacklashY: 0.73
     BedHeightOffset: -0.1
-    FilamentTemperature: '205'
+    FilamentTemperature: 205
     FrontLeftOffset: 0.231556
     FrontLeftOrientation: -0.318143
     FrontRightOffset: 0.185497
