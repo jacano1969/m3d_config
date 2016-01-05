@@ -1,7 +1,7 @@
 _description: ''
 _display_name: M3D PLA 0.2mm
 bottom_layer_speed: 20
-bottom_thickness: 0.2
+bottom_thickness: 0.30
 brim_line_count: 20
 cool_head_lift: false
 cool_min_feedrate: 28
@@ -52,14 +52,14 @@ raft_interface_thickness: 0.4
 raft_line_spacing: 4.0
 raft_margin: 2.0
 raft_surface_layers: 2
-retraction_amount: 2.0
+retraction_amount: 3.0
 retraction_combing: All
 retraction_dual_amount: 14.5
 retraction_enable: true
 retraction_hop: 0.2
 retraction_min_travel: 1.5
 retraction_minimal_extrusion: 0.1
-retraction_speed: 42.0
+retraction_speed: 62.0
 skirt_gap: 3.0
 skirt_line_count: true
 skirt_minimal_length: 250.0
