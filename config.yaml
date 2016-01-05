@@ -18,6 +18,7 @@ plugins:
     BacklashSpeed: 15
     BacklashX: 0.75
     BacklashY: 0.73
+    BedHeightOffset: '-0.1'
     FilamentTemperature: 210
     FrontLeftOffset: 0.231556
     FrontLeftOrientation: -0.318143
@@ -29,7 +30,6 @@ plugins:
     _config_version: 4
     checks:
       octoprint:
-        checkout_folder: null
         type: github_release
 printerParameters: {}
 printerProfiles:
