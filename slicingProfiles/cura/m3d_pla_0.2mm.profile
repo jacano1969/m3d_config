@@ -52,12 +52,12 @@ raft_interface_thickness: 0.4
 raft_line_spacing: 4.0
 raft_margin: 2.0
 raft_surface_layers: 2
-retraction_amount: 5.0
+retraction_amount: 6.0
 retraction_combing: Off
 retraction_dual_amount: 14.5
 retraction_enable: true
 retraction_hop: 0.2
-retraction_min_travel: 1.5
+retraction_min_travel: 0.0
 retraction_minimal_extrusion: 0.1
 retraction_speed: 52.0
 skirt_gap: 3.0
