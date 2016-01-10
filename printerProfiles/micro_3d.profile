@@ -1,16 +1,16 @@
 axes:
   e:
     inverted: false
-    speed: 345.14568
+    speed: 600
   x:
     inverted: false
-    speed: 1946
+    speed: 4800
   y:
     inverted: false
-    speed: 2086
+    speed: 4800
   z:
     inverted: false
-    speed: 92
+    speed: 90
 color: default
 extruder:
   count: 1

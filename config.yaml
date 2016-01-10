@@ -12,24 +12,27 @@ plugins:
     upnpUuid: 9123a423-7f00-4178-93c3-38abe48f87b6
   m3dfio:
     BackLeftOffset: 0.126589
-    BackLeftOrientation: -0.033845
+    BackLeftOrientation: 0.215254
     BackRightOffset: 0.200322
-    BackRightOrientation: -0.089738
+    BackRightOrientation: 0.295708
     BacklashSpeed: 15
-    BacklashX: 0.75
-    BacklashY: 0.73
+    BacklashX: 0.0
+    BacklashY: 0.0
     BedHeightOffset: -0.4
     FilamentTemperature: 200
     FrontLeftOffset: 0.231556
-    FrontLeftOrientation: -0.468608
+    FrontLeftOrientation: -0.291067
     FrontRightOffset: 0.185497
-    FrontRightOrientation: -0.556024
+    FrontRightOrientation: -0.341157
     PrinterColor: Blue
     UseCenterModelPreprocessor: true
+  pluginmanager:
+    pip: /usr/bin/pip
   softwareupdate:
     _config_version: 4
     checks:
-      octoprint: {}
+      octoprint:
+        type: github_release
 printerParameters: {}
 printerProfiles:
   default: micro_3d
