@@ -1,7 +1,7 @@
 _description: Imported by M3D Fio on 2016-01-08 20:51
-_display_name: M3D PLA 0.05mm V6
-bottom_layer_speed: 28
-bottom_thickness: 0.1
+_display_name: M3D ABS 0.25mm V6
+bottom_layer_speed: 35
+bottom_thickness: 0.3
 cool_head_lift: true
 cool_min_feedrate: 28
 cool_min_layer_time: false
@@ -11,9 +11,9 @@ end_gcode:
 - ''
 - ''
 fan_enabled: true
-fan_full_height: 0.101
-fan_speed: 255
-fan_speed_max: 255
+fan_full_height: 0.551
+fan_speed: false
+fan_speed_max: true
 filament_diameter:
 - 1.75
 - 0
@@ -28,12 +28,12 @@ fix_horrible_union_all_type_a: false
 fix_horrible_union_all_type_b: false
 fix_horrible_use_open_bits: false
 follow_surface: false
-layer_height: 0.05
+layer_height: 0.25
 object_sink: false
 ooze_shield: false
 overlap_dual: 0.0
 platform_adhesion: raft
-print_speed: 34
+print_speed: 43
 raft_airgap: 0.28
 raft_base_linewidth: 2.5
 raft_base_thickness: 0.4
@@ -49,12 +49,12 @@ retraction_enable: true
 retraction_hop: 0.2
 retraction_min_travel: 1.5
 retraction_minimal_extrusion: 0.1
-retraction_speed: 42
+retraction_speed: 53
 skirt_gap: 2.0
 skirt_line_count: false
 skirt_minimal_length: 0.0
 solid_bottom: true
-solid_layer_thickness: 0.299
+solid_layer_thickness: 1.499
 solid_top: true
 spiralize: false
 start_gcode:
