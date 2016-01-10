@@ -20,7 +20,7 @@ filament_diameter:
 - 0
 - 0
 filament_flow: 100
-fill_density: 6.36363636364
+fill_density: 18 ; 6.36363636364
 fill_overlap: false
 first_layer_width_factor: 100.0
 fix_horrible_extensive_stitching: false
@@ -32,7 +32,7 @@ layer_height: 0.1
 object_sink: false
 ooze_shield: false
 overlap_dual: 0.0
-platform_adhesion: raft
+platform_adhesion: none ; raft
 print_speed: 34
 raft_airgap: 0.28
 raft_base_linewidth: 2.5
@@ -47,14 +47,14 @@ retraction_combing: true
 retraction_dual_amount: 14.5
 retraction_enable: true
 retraction_hop: 0.2
-retraction_min_travel: 1.5
+retraction_min_travel: 1.0
 retraction_minimal_extrusion: 0.1
 retraction_speed: 42
-skirt_gap: 2.0
-skirt_line_count: false
-skirt_minimal_length: 0.0
+skirt_gap: 3.0
+skirt_line_count: true
+skirt_minimal_length: 150.0
 solid_bottom: true
-solid_layer_thickness: 0.599
+solid_layer_thickness: 0.799
 solid_top: true
 spiralize: false
 start_gcode:
@@ -72,5 +72,5 @@ support_type: lines
 support_xy_distance: 0.7
 support_z_distance: 0.15
 travel_speed: 51
-wall_thickness: 0.35
+wall_thickness: 0.70
 wipe_tower_volume: 0.0
