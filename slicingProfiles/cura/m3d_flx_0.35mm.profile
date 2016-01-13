@@ -1,7 +1,7 @@
 _description: Imported by M3D Fio on 2016-01-13 07:13
-_display_name: M3D PLA 0.05mm V7
+_display_name: M3D FLX 0.35mm V7
 bottom_layer_speed: 27
-bottom_thickness: 0.1
+bottom_thickness: 0.3
 cool_head_lift: true
 cool_min_feedrate: 12
 cool_min_layer_time: false
@@ -11,7 +11,7 @@ end_gcode:
 - ''
 - ''
 fan_enabled: true
-fan_full_height: 0.101
+fan_full_height: 0.301
 fan_speed: 255
 fan_speed_max: 255
 filament_diameter:
@@ -29,7 +29,7 @@ fix_horrible_union_all_type_b: false
 fix_horrible_use_open_bits: false
 follow_surface: false
 inner_shell_speed: 30
-layer_height: 0.05
+layer_height: 0.35
 object_sink: false
 ooze_shield: false
 outer_shell_speed: 27
@@ -56,7 +56,7 @@ skirt_gap: 2.0
 skirt_line_count: false
 skirt_minimal_length: 0.0
 solid_bottom: true
-solid_layer_thickness: 0.299
+solid_layer_thickness: 2.099
 solid_top: true
 spiralize: false
 start_gcode:

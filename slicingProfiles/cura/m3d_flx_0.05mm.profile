@@ -1,5 +1,5 @@
 _description: Imported by M3D Fio on 2016-01-13 07:13
-_display_name: M3D PLA 0.05mm V7
+_display_name: M3D FLX 0.05mm V7
 bottom_layer_speed: 27
 bottom_thickness: 0.1
 cool_head_lift: true

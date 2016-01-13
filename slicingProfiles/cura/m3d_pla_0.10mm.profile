@@ -1,9 +1,9 @@
-_description: Imported by M3D Fio on 2016-01-08 20:51
-_display_name: M3D PLA 0.10mm V6
-bottom_layer_speed: 28
+_description: Imported by M3D Fio on 2016-01-13 07:13
+_display_name: M3D PLA 0.10mm V7
+bottom_layer_speed: 27
 bottom_thickness: 0.3
 cool_head_lift: true
-cool_min_feedrate: 28
+cool_min_feedrate: 12
 cool_min_layer_time: false
 end_gcode:
 - ''
@@ -20,19 +20,21 @@ filament_diameter:
 - 0
 - 0
 filament_flow: 100
-fill_density: 18 ; 6.36363636364
-fill_overlap: 15
+fill_density: 6.36363636364
+fill_overlap: false
 first_layer_width_factor: 100.0
 fix_horrible_extensive_stitching: false
 fix_horrible_union_all_type_a: false
 fix_horrible_union_all_type_b: false
 fix_horrible_use_open_bits: false
 follow_surface: false
+inner_shell_speed: 30
 layer_height: 0.1
 object_sink: false
 ooze_shield: false
+outer_shell_speed: 27
 overlap_dual: 0.0
-platform_adhesion: none ; raft
+platform_adhesion: raft
 print_speed: 34
 raft_airgap: 0.28
 raft_base_linewidth: 2.5
@@ -46,15 +48,15 @@ retraction_amount: 2.4
 retraction_combing: true
 retraction_dual_amount: 14.5
 retraction_enable: true
-retraction_hop: 0.2
-retraction_min_travel: 0.70
+retraction_hop: 0.8
+retraction_min_travel: 1.5
 retraction_minimal_extrusion: 0.1
 retraction_speed: 42
-skirt_gap: 3.0
-skirt_line_count: true
-skirt_minimal_length: 150.0
+skirt_gap: 2.0
+skirt_line_count: false
+skirt_minimal_length: 0.0
 solid_bottom: true
-solid_layer_thickness: 0.799
+solid_layer_thickness: 0.599
 solid_top: true
 spiralize: false
 start_gcode:
@@ -71,6 +73,6 @@ support_fill_rate: 20.0
 support_type: lines
 support_xy_distance: 0.7
 support_z_distance: 0.15
-travel_speed: 51
-wall_thickness: 0.70
+travel_speed: 20
+wall_thickness: 0.35
 wipe_tower_volume: 0.0

@@ -32,7 +32,7 @@ plugins:
     _config_version: 4
     checks:
       octoprint:
-        checkout_folder: null
+        type: github_release
 printerParameters: {}
 printerProfiles:
   default: micro_3d

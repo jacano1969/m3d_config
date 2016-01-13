@@ -1,9 +1,9 @@
-_description: Imported by M3D Fio on 2016-01-08 20:51
-_display_name: M3D ABS 0.35mm V6
-bottom_layer_speed: 35
+_description: Imported by M3D Fio on 2016-01-13 07:13
+_display_name: M3D ABS 0.35mm V7
+bottom_layer_speed: 27
 bottom_thickness: 0.3
 cool_head_lift: true
-cool_min_feedrate: 28
+cool_min_feedrate: 12
 cool_min_layer_time: false
 end_gcode:
 - ''
@@ -11,9 +11,9 @@ end_gcode:
 - ''
 - ''
 fan_enabled: true
-fan_full_height: 0.651
-fan_speed: false
-fan_speed_max: true
+fan_full_height: 0.301
+fan_speed: 255
+fan_speed_max: 255
 filament_diameter:
 - 1.75
 - 0
@@ -28,12 +28,14 @@ fix_horrible_union_all_type_a: false
 fix_horrible_union_all_type_b: false
 fix_horrible_use_open_bits: false
 follow_surface: false
+inner_shell_speed: 30
 layer_height: 0.35
 object_sink: false
 ooze_shield: false
+outer_shell_speed: 27
 overlap_dual: 0.0
 platform_adhesion: raft
-print_speed: 43
+print_speed: 34
 raft_airgap: 0.28
 raft_base_linewidth: 2.5
 raft_base_thickness: 0.4
@@ -46,10 +48,10 @@ retraction_amount: 2.4
 retraction_combing: true
 retraction_dual_amount: 14.5
 retraction_enable: true
-retraction_hop: 0.2
+retraction_hop: 0.8
 retraction_min_travel: 1.5
 retraction_minimal_extrusion: 0.1
-retraction_speed: 53
+retraction_speed: 42
 skirt_gap: 2.0
 skirt_line_count: false
 skirt_minimal_length: 0.0
@@ -71,6 +73,6 @@ support_fill_rate: 20.0
 support_type: lines
 support_xy_distance: 0.7
 support_z_distance: 0.15
-travel_speed: 51
+travel_speed: 20
 wall_thickness: 0.35
 wipe_tower_volume: 0.0
