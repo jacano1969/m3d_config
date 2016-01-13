@@ -21,7 +21,7 @@ filament_diameter:
 - 0
 filament_flow: 100
 fill_density: 18 ; 6.36363636364
-fill_overlap: false
+fill_overlap: 15
 first_layer_width_factor: 100.0
 fix_horrible_extensive_stitching: false
 fix_horrible_union_all_type_a: false
@@ -47,7 +47,7 @@ retraction_combing: true
 retraction_dual_amount: 14.5
 retraction_enable: true
 retraction_hop: 0.2
-retraction_min_travel: 1.0
+retraction_min_travel: 0.70
 retraction_minimal_extrusion: 0.1
 retraction_speed: 42
 skirt_gap: 3.0
