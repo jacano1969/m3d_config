@@ -27,4 +27,4 @@ volume:
   formFactor: rectangular
   height: 112.0
   origin: lowerleft
-  width: 113.0
+  width: 108.0

@@ -1,6 +1,6 @@
-_description: Imported by M3D Fio on 2016-01-13 07:13
-_display_name: M3D ABS 0.35mm V7
-bottom_layer_speed: 27
+_description: Imported by M3D Fio on 2016-01-19 21:11
+_display_name: M3D ABS 0.35mm V8
+bottom_layer_speed: 16
 bottom_thickness: 0.3
 cool_head_lift: true
 cool_min_feedrate: 12
@@ -11,9 +11,9 @@ end_gcode:
 - ''
 - ''
 fan_enabled: true
-fan_full_height: 0.301
-fan_speed: 255
-fan_speed_max: 255
+fan_full_height: 0.651
+fan_speed: false
+fan_speed_max: true
 filament_diameter:
 - 1.75
 - 0
@@ -28,14 +28,14 @@ fix_horrible_union_all_type_a: false
 fix_horrible_union_all_type_b: false
 fix_horrible_use_open_bits: false
 follow_surface: false
-inner_shell_speed: 30
+inner_shell_speed: 18
 layer_height: 0.35
 object_sink: false
 ooze_shield: false
-outer_shell_speed: 27
+outer_shell_speed: 16
 overlap_dual: 0.0
 platform_adhesion: raft
-print_speed: 34
+print_speed: 20
 raft_airgap: 0.28
 raft_base_linewidth: 2.5
 raft_base_thickness: 0.4
@@ -51,7 +51,7 @@ retraction_enable: true
 retraction_hop: 0.8
 retraction_min_travel: 1.5
 retraction_minimal_extrusion: 0.1
-retraction_speed: 42
+retraction_speed: 25
 skirt_gap: 2.0
 skirt_line_count: false
 skirt_minimal_length: 0.0
