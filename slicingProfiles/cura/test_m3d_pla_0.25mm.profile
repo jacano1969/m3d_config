@@ -1,5 +1,5 @@
 _description: Imported by M3D Fio on 2016-01-19 21:11
-_display_name: M3D PLA 0.25mm V8
+_display_name: Test M3D PLA 0.25mm V8
 bottom_layer_speed: 12
 bottom_thickness: 0.3
 cool_head_lift: true
