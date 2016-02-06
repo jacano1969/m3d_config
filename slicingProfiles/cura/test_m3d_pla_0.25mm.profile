@@ -1,6 +1,6 @@
 _description: Imported by M3D Fio on 2016-01-19 21:11
 _display_name: Test M3D PLA 0.25mm V8
-bottom_layer_speed: 12
+bottom_layer_speed: 20
 bottom_thickness: 0.3
 cool_head_lift: true
 cool_min_feedrate: 12
@@ -28,14 +28,14 @@ fix_horrible_union_all_type_a: false
 fix_horrible_union_all_type_b: false
 fix_horrible_use_open_bits: false
 follow_surface: false
-inner_shell_speed: 14
+inner_shell_speed: 20
 layer_height: 0.25
 object_sink: false
 ooze_shield: false
-outer_shell_speed: 12
+outer_shell_speed: 20
 overlap_dual: 0.0
 platform_adhesion: none
-print_speed: 16
+print_speed: 20
 raft_airgap: 0.28
 raft_base_linewidth: 2.5
 raft_base_thickness: 0.4
@@ -52,7 +52,7 @@ retraction_hop: 0.8
 retraction_min_travel: 1.5
 retraction_minimal_extrusion: 0.1
 retraction_speed: 20
-skirt_gap: 2.0
+skirt_gap: 4.0
 skirt_line_count: 1
 skirt_minimal_length: 150.0
 solid_bottom: true

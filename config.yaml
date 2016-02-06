@@ -15,10 +15,10 @@ plugins:
     BackLeftOrientation: -0.04835
     BackRightOffset: 0.200322
     BackRightOrientation: -0.011991
-    BacklashSpeed: 15
     BacklashX: 0
     BacklashY: 0.5
     BedHeightOffset: -0.4
+    FilamentColor: Purple
     FilamentTemperature: 200
     FrontLeftOffset: 0.231556
     FrontLeftOrientation: -0.583487
