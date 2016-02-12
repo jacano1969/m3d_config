@@ -18,8 +18,7 @@ plugins:
     BacklashX: 0
     BacklashY: 0.5
     BedHeightOffset: -0.4
-    FilamentColor: Purple
-    FilamentTemperature: 200
+    FilamentTemperature: 210
     FrontLeftOffset: 0.231556
     FrontLeftOrientation: -0.583487
     FrontRightOffset: 0.185497
